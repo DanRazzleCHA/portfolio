@@ -12,6 +12,10 @@ h1 {
   min-width: 300px;
 }
 
+.project-image{
+  height: 100%;
+  min-height: 420px;
+}
 
 .hero{
   height: 100vh;
