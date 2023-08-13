@@ -10,11 +10,12 @@ h1 {
 }
 .projects{
   min-width: 300px;
+  height: 100%;
+  min-height: 420px;
 }
 
 .project-image{
   height: 100%;
-  min-height: 420px;
 }
 
 .hero{
