@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-100 py-5 text-center border-top text-white'>
+    <div className='w-100 py-4 bg-light text-black text-center'>
       <img src='/logo.png' alt='upang' width={60}/>
 
-      <h1 className='display-4 fw-bold'>PHINMA University of Pangasinan</h1>
+      <h2 className='fw-bold'>PHINMA University of Pangasinan</h2>
       <p>College of Information and Technology</p>
     </div>
   )

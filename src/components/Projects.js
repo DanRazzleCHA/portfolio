@@ -5,27 +5,21 @@ const Projects = () => {
   return (
     <Carousel className='d-flex w-100'>
         <Carousel.Item>
-          <div className='project-image'>
-            <Image src="/upang_updates.jpg" className='w-100 h-100 object-fit-cover' fluid rounded/>
-          </div>
-          <Carousel.Caption>
-            <h3>Upang Updates</h3>
+            <Image src="/upang_updates.jpg" className='project-image w-100 h-100 object-fit-cover' fluid rounded/>
+          <Carousel.Caption className='d-flex justify-content-center'>
+            <h3 className='text-light bg-dark bordery w-25 rounded'>Upang Updates</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className='project-image'>
-            <Image src="/cite.png" className='w-100 h-100 object-fit-cover' fluid rounded/>
-          </div>
-          <Carousel.Caption>
-            <h3>CITE Events</h3>
+            <Image src="/cite.png" className='project-image w-100 h-100 object-fit-cover' fluid rounded/>
+          <Carousel.Caption className='d-flex justify-content-center'>
+            <h3 className='text-light bg-dark border w-25 rounded'>CITE Events</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <div className='project-image'>
-            <Image src="/portal.jpg" className='w-100 h-100 object-fit-cover' fluid rounded/>
-          </div>
-          <Carousel.Caption>
-            <h3>Portal</h3>
+            <Image src="/portal.jpg" className='project-image w-100 h-100 object-fit-cover' fluid rounded/>
+          <Carousel.Caption className='d-flex justify-content-center'>
+            <h3 className='text-light bg-dark border w-25 rounded'>Portal</h3>
           </Carousel.Caption>
       </Carousel.Item>
   </Carousel>

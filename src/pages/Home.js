@@ -2,8 +2,9 @@ import React from 'react';
 import SocialLinks from '../components/SocialLinks';
 import { Button, Image, Row, Col, Container } from 'react-bootstrap';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
+import {AiOutlineArrowRight} from "react-icons/ai";
 import Projects from '../components/Projects';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 
@@ -31,7 +32,7 @@ const Home = () => {
                   </p>
                   <div className='d-flex align-items-center gap-2'>
                     <Link to='/work'>
-                      <Button className='btn-lg' variant='dark'>View Work</Button>
+                      <Button className='btn-lg' variant='outline-light'>View Work</Button>
                     </Link>
                     <SocialLinks />
                   </div>
@@ -75,7 +76,10 @@ const Home = () => {
           transition={{delay:0.25}}>
           <Row className='mt-5 border rounded text-light p-5'>
         
-          <h1 className='display-1 fw-bold'>Recent Projects</h1>
+          <div className='d-flex justify-content-between'>
+            <h1 className='display-1 fw-bold'>Recent Projects</h1>
+            <Link to="/work" className='d-flex align-items-center'><Button className="text-light"variant='link'>View more<AiOutlineArrowRight className='m-2'/></Button></Link>
+          </div>
           <Projects />
          </Row>
         </motion.div>

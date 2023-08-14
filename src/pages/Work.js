@@ -22,15 +22,21 @@ const Work = () => {
             <ul>
               <li>
                 <h4 className='fw-bold'>Upang Updates</h4>
-                <p>Tech Stack: Android, Java, Firebase</p>
+                <p>A Mobile Application that updates you on latest events that's happening in UPang 
+                    <br/> Tech Stack: Android, Java, Firebase
+                </p>
               </li>
               <li>
                 <h4 className='fw-bold'>CITE Events</h4>
-                <p>Tech Stack: HTML, CSS, JS</p>
+                <p>A web page that showcase the latest events happens in CITE
+                  <br/> Tech Stack: HTML, CSS, JS
+                </p>
               </li>
               <li>
                 <h4 className='fw-bold'>Portal</h4>
-                <p>Tech Stack: .Net, C#</p>
+                <p>A School portal for PHINMA UPang students and faculty
+                  <br/> Tech Stack: .Net, C#
+                </p>
               </li>
             </ul>
           </Col>
