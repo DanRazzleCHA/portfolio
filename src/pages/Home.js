@@ -10,8 +10,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Home = () => {
   return (
-    <section>
-       <AnimatePresence>
+    <>
+      <Container>
+      <AnimatePresence>
           <motion.div
             initial={{ opacity:0, y:15}}
             animate={{ opacity:1, y:0}}
@@ -100,7 +101,8 @@ const Home = () => {
           </div>
       </motion.div>
       </AnimatePresence>
-    </section>
+      </Container>
+    </>
   );
 };
 

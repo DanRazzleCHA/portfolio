@@ -6,12 +6,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Work = () => {
   return (
-    <AnimatePresence>
+    <>
+      <AnimatePresence>
       <motion.div
         initial={{ opacity:0, y:15}}
         animate={{ opacity:1, y:0}}
         transition={{ ease: "easeOut", duration: 2}}>
-        <Container>
+        <Container className='d-flex flex-column justify-content-center hero py-5'>
           <Row className='d-flex align-items-center justify-content-center'>
           <Col>
             <h1 className='display-1 fw-bold'>
@@ -47,6 +48,7 @@ const Work = () => {
         </Container>
       </motion.div>
     </AnimatePresence>
+    </>
   );
 };
 

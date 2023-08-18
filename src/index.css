@@ -26,7 +26,7 @@ h1 {
 }
 
 .hero{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* The actual timeline (the vertical ruler) */

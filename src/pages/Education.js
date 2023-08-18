@@ -5,12 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const Education = () => {
   return (
+    <>
     <AnimatePresence>
       <motion.div
         initial={{ opacity:0, y:15}}
         animate={{ opacity:1, y:0}}
         transition={{ ease: "easeOut", duration: 2}}>
-        <Container className='d-flex flex-column justify-content-center'>
+        <Container className='d-flex flex-column justify-content-center hero py-5'>
           <h1 className='display-3 fw-bold text-center'>My Education</h1>
           <p className='text-center'>These are my academic qualifications:</p>
           <div className="main-timeline-5">
@@ -82,6 +83,7 @@ const Education = () => {
         </Container>
       </motion.div>
     </AnimatePresence>
+    </>
   );
 };
 
